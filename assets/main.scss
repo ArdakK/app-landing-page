@@ -1,14 +1,18 @@
 ---
 ---
 
-$text-color: #333;
+$text-color: #FFF;
 $anchor-text-color: #DE2052;
 $background-color: #FFF;
 
 body {
-	font-family: 'PT Sans', serif;
+
 	color: $text-color;
-	background-image: url("images/bg.png");
+	background-image: url("../images/bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
 }
 
 header,
@@ -40,27 +44,43 @@ a:hover {
 }
 
 .logo {
-	width: 96px;
-	height: 96px;
-	display: inline-block;
+	width: 100px;
+	height: 40px;
+	position: absolute;
+	left: 40px;
+	top: 40px;
+	display: block;
 	background-size: cover;
-	border-radius: 19px;
-	-moz-border-radius: 19px;
 }
 
 /*** Title ***/
 .title-container h1 {
-	font-size: 2.8em;
-	margin-top: 0;
-	margin-bottom: 0;
+	margin-top: 150px;
+	font-family: "Helvetica Neue";
+	font-size: 5.0em;
+	font-weight: 100;
+//	margin-top: 0;
+//	margin-bottom: 0;
+
 	text-align: center;
 }
 
+.title-container h2 {
+	margin-top: 50px;
+	font-family: "Helvetica Neue";
+	font-size: 4.0em;
+	font-weight: 100;
+}
 /*** Tagline ***/
 .tagline-container p {
 	font-size: 1.3em;
 	text-align: center;
-	margin-bottom: 2em;
+//	margin-bottom: 2em;
+}
+
+.content h2 {
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 100;
 }
 
 /******/
@@ -72,7 +92,7 @@ hr {
 }
 
 #mc_embed_signup {
-	display: block;
+	//display: block;
 	margin-bottom: 1em;
 }
 
@@ -126,20 +146,21 @@ footer {
 	/* the header column stays left and has a dynamic width with all contents
 	aligned right */
 	header {
-		float: left;
+	/*	float: left;
 		width: 46%;
-		text-align: right;
+		text-align: right;*/
 	}
 
 	.author-container h1,
 	.logo-container,
 	.tagline-container p {
-		text-align: right;
+		//text-align: right;
 	}
 
 	main {
-		width: 46%;
+		/*width: 46%;
 		margin-left: 54%;
-		padding: 0;
+		padding: 0;*/
+		margin-top: -25px;
 	}
 }

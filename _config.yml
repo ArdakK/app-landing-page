@@ -4,11 +4,11 @@ url: http://doptep.com
 # app configuration
 app:
   # logo (icon) of the app
-  logo: "/images/logo.png"
+  logo: "/images/dop.png"
   # title will appear under the avatar (optional)
-  title: "Doptep"
+  title: "DOPTEP"
   # tagline will appear under the title (optional)
-  tagline: "Играйте в футбол в одно касание"
+  #tagline: ""
   # if include_content is true, the contents of the content.html include will be
   # added right above the generated item list, if present
   include_content: true
