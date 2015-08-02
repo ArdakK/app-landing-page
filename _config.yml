@@ -6,7 +6,7 @@ app:
   # logo (icon) of the app
   logo: "/images/dop.png"
   # title will appear under the avatar (optional)
-  title: "DOPTEP"
+  title: "Doptep"
   # tagline will appear under the title (optional)
   #tagline: ""
   # if include_content is true, the contents of the content.html include will be

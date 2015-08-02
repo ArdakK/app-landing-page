@@ -11,6 +11,11 @@
 </ul>
 <a href="#">Ваше имя со ссылкой на сайт</a> -->
 
+{% if site.app.inclide_subscription_form %}
+{% include subscription.html %}
+{% endif %}
+
+
 <div class="appstore-link">
   <a id="href" href="#" ><img src="../images/buttonn.png" width="200"></a>
 </div>
