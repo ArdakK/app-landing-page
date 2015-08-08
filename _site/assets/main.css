@@ -1,5 +1,4 @@
 body {
-  color: #FFF;
   background-image: url("../images/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,15 +41,17 @@ a:hover {
 .title-container h1 {
   margin-top: 120px;
   font-family: "Helvetica Neue";
-  font-size: 8.0em;
+  font-size: 7.0em;
   font-weight: 100;
+  color: #FFF;
   text-align: center; }
 
 .title-container h2 {
   margin-top: 36px;
   font-family: "Helvetica Neue";
   font-size: 4.0em;
-  font-weight: 100; }
+  font-weight: 100;
+  color: #FFF; }
 
 /*** Tagline ***/
 .tagline-container p {
@@ -60,7 +61,8 @@ a:hover {
 .content h2 {
   margin-top: 75px;
   font-family: 'Helvetica', sans-serif;
-  font-weight: 100; }
+  font-weight: 100;
+  color: #FFF; }
 
 /******/
 hr {
@@ -79,7 +81,8 @@ hr {
   width: 30% !important;
   margin: 0 auto 10px auto !important;
   background-color: #f0f0f0;
-  text-color: #FFF;
+  text-color: #000000;
+  color: #000, 70%;
   border-radius: 5px;
   border: 1px solid #666;
   padding: 10px !important; }
